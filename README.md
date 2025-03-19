@@ -33,9 +33,10 @@ This dashboard enables:
 
 ## 📸 Screenshots
 
-![Dashboard Header](screenshots/dashboard_header.png)
-![KPIs + Fraud Alert](screenshots/kpi_fraud_alert.png)
-![Charts](screenshots/charts_combined.png)
+![Dashboard Header](screenshots/dashboard_header_preview.png)
+![KPIs + Fraud Alert](screenshots/key_metrics_alert.png)
+![Charts](screenshots/fraud_trends_top_users.png)
+![Upload + Filters](screenshots/upload_and_filters.png)
 
 ---
 
