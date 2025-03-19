@@ -34,7 +34,7 @@ This dashboard enables:
 ## 📸 Screenshots
 
 ### 📂 Upload & Filters
-<img src="screenshots/upload_and_filters.png" width="600"/>
+<img src="screenshots/upload_and_filters.png" width="350"/>
 
 ---
 
