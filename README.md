@@ -33,8 +33,8 @@ This dashboard enables:
 
 ## 📸 Screenshots
 
-### 📂 Upload & Filters
-<img src="screenshots/upload_and_filters.png" width="350"/>
+### 🧠 Dashboard Header + Data Preview
+<img src="screenshots/dashboard_header_preview.png" width="800"/>
 
 ---
 
@@ -48,8 +48,8 @@ This dashboard enables:
 
 ---
 
-### 🧠 Dashboard Header + Data Preview
-<img src="screenshots/dashboard_header_preview.png" width="800"/>
+### 📂 Upload & Filters
+<img src="screenshots/upload_and_filters.png" width="350"/>
 
 ---
 
