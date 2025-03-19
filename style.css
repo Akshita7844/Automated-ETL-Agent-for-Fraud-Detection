@@ -1,0 +1,125 @@
+/* ===== Body & Global Styles ===== */
+body {
+    background-color: #0f1117;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f0f0f0;
+}
+
+/* ===== Header – Neon Glow Style ===== */
+.header {
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #12151e;
+    color: #00ffe7;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(0, 255, 231, 0.2);
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(to right, #00ffe7, #00bcd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(0, 255, 231, 0.3);
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 16px;
+    color: #cccccc;
+    opacity: 0.85;
+}
+
+/* ===== Sidebar Styling ===== */
+.stSidebar {
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ===== KPI Metrics Cards ===== */
+[data-testid="metric-container"] {
+    background: #1f2937;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #ffffff;
+}
+
+[data-testid="metric-container"]:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+/* ===== Alerts (High & Normal) ===== */
+.alert-high {
+    background: #ff1744;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    animation: pulse 1.5s infinite;
+}
+
+.alert-low {
+    background: #00c853;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 23, 68, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(255, 23, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 23, 68, 0); }
+}
+
+/* ===== Expanders (Preview, Info Sections) ===== */
+.stExpander {
+    background: #1e1e2f;
+    border: 1px solid #00ffe7;
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+/* ===== Email Button – Gradient Glow ===== */
+.stButton > button {
+    background: #e98516;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(233, 133, 22, 0.4);
+}
+
+.stButton > button:hover {
+    background: #ff9f40;  /* Lighter orange on hover */
+    box-shadow: 0 0 15px rgba(233, 133, 22, 0.6);
+}
+
+/* ===== Slider Accent Color ===== */
+input[type=range] {
+    accent-color: #00ffe7;
+}
+
+/* ===== Plotly Graphs Styling ===== */
+.plotly-graph-div {
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 255, 255, 0.1);
+    padding: 10px;
+    background-color: #1f2937;
+    color: #ffffff;
+}
