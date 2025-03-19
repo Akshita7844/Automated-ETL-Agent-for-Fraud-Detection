@@ -30,7 +30,7 @@ if uploaded_file:
     df = pd.read_csv(uploaded_file, parse_dates=['timestamp'])
     st.success("✅ Uploaded file loaded successfully.")
 else:
-    df = pd.read_csv('large_financial_transactions.csv', parse_dates=['timestamp'])
+    df = pd.read_csv('data/large_financial_transactions.csv', parse_dates=['timestamp'])
     st.info("ℹ️ Using default dataset.")
 
 # Preview Data
